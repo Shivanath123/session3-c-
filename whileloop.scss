@@ -1,0 +1,9 @@
+/* changing font-size in heading tag by using @while loop.
+*/
+$h: 6;
+@while $h > 0 {
+    .item-#{$h} {
+        font-size: 24px - 3px * $h;
+    }
+    $h: $h - 1;
+}

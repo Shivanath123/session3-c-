@@ -1,0 +1,8 @@
+#button {
+    color: black;
+    /* by using parent selector & setting color value to red
+    */
+    &:focus{
+        color: red;
+    }
+}

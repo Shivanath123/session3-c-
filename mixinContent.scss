@@ -1,0 +1,13 @@
+$style: solid;
+/* style will appear at hte location of any @content found within the mixin
+*/
+@mixin border-width($thickness:10px) {
+    -webkit-border-width: $thickness;
+    -moz-border-width: $thickness;
+    -ms-border-width: $thickness;
+    @content;
+    border-width: $thickness;
+}
+.img{
+    @include border-width{border-style: $style};
+}

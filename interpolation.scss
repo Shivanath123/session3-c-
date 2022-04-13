@@ -1,0 +1,9 @@
+/*
+defining $selector and value as 'article'
+*/
+$selector: article;
+/* by using interpolated value of $selector variable as selector applying properties to it.
+*/
+#{$selector} {
+    color:#ff0000;
+}

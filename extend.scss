@@ -1,0 +1,9 @@
+.push-button {
+    background-color: blue;
+}
+/* by using @extends accquring properties of one selector to another selector
+*/
+.main-button {
+    @extend .push-button;
+    font-weight: bold;
+}
